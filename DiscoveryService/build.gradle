@@ -18,7 +18,7 @@ ext {
 }
 
 dependencies {
-	implementation 'org.springframework.cloud:spring-cloud-netflix-eureka-server'
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
 	runtimeOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
