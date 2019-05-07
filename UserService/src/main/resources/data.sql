@@ -1,0 +1,1 @@
+INSERT into USER(ID, NAME, USERNAME, PASSWORD) VALUES ('adccd53cf60b487ca394041745a067c3','Tanmay', 'tanmay', 'password')
