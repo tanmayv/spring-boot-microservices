@@ -1,4 +1,4 @@
-IMAGE=authservice
+IMAGE=userservice
 docker tag $IMAGE:armhf 12tanmayvijay/$IMAGE:armhf
 docker tag $IMAGE:intel 12tanmayvijay/$IMAGE:intel
 

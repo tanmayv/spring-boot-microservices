@@ -27,6 +27,9 @@ server:
   port: 8080
 eureka:
   client:
-    service-url:
-      default-zone: http://localhost:8761/eureka
-
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+  instance:
+    hostname: 127.0.0.1
+    prefer-ip-address: true

@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discoveryservice:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+
+spring:
+  cloud:
+    inetutils:
+      ignoredInterfaces:
+        - docker
+        - eth.*
+        - lo
+      preferredNetworks:
+        - 10.0.0
+        - 20.0
