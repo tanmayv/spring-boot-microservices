@@ -7,4 +7,4 @@ docker push 12tanmayvijay/$IMAGE:intel
 
 docker manifest create 12tanmayvijay/$IMAGE 12tanmayvijay/$IMAGE:armhf 12tanmayvijay/$IMAGE:intel
 docker manifest annotate 12tanmayvijay/$IMAGE:latest 12tanmayvijay/$IMAGE:armhf --os linux --arch arm
-docker manifest push 12tanmayvijay/$IMAGE
+docker manifest push --purge 12tanmayvijay/$IMAGE //bug with current manifest api, amend not working
